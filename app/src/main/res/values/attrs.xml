@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VariedButton">
+        <attr name="radius" format="dimension" />
+
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="solidColor" format="color" />
+        <attr name="textColor" format="color" />
+
+        <attr name="pressedStrokeWidth" format="dimension" />
+        <attr name="pressedStrokeColor" format="color" />
+        <attr name="pressedSolidColor" format="color" />
+        <attr name="pressedTextColor" format="color" />
+
+        <attr name="disableStrokeWidth" format="dimension" />
+        <attr name="disableStrokeColor" format="color" />
+        <attr name="disableSolidColor" format="color" />
+        <attr name="disableTextColor" format="color" />
+
+        <attr name="selectedStrokeWidth" format="dimension" />
+        <attr name="selectedStrokeColor" format="color" />
+        <attr name="selectedSolidColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+    </declare-styleable>
+
+</resources>

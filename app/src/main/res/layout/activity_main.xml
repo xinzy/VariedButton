@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xinzy.variedbutton.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:text="普通测试"
+            android:textColor="#F00"
+            android:layout_margin="10dp"/>
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:text="圆角"
+            app:solidColor="#FF8447"
+            app:radius="18dp"/>
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:id="@+id/stateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:text="带有状态的圆角"
+            android:textColor="#FF0000"
+            app:pressedTextColor="#333333"
+            app:disableTextColor="#666666"
+            app:radius="18dp"
+            app:solidColor="#FF8447"
+            app:pressedSolidColor="#FF8888"
+            app:disableSolidColor="#CCCCCC"/>
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:text="测试描边"
+            app:radius="18dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FF8447"
+            app:pressedStrokeWidth="1dp"
+            app:pressedStrokeColor="#666666"/>
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_margin="10dp"
+            android:text="测试描边"
+            app:radius="8dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FF8447"
+            app:pressedStrokeWidth="1dp"
+            app:pressedStrokeColor="#666666"/>
+
+        <com.xinzy.variedbutton.widget.VariedButton
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="圆形"
+            app:radius="28dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="#FF8447"/>
+    </LinearLayout>
+</ScrollView>
